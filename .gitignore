@@ -1,0 +1,12 @@
+# Ignore les dépendances installées par Composer
+/vendor/
+
+# Ignore les fichiers de cache, logs et sessions
+/.idea/
+/.vscode/
+*.log
+*.cache
+
+# Ignore les fichiers temporaires et systèmes
+.DS_Store
+Thumbs.db
