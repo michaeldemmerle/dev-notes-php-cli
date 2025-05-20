@@ -3,6 +3,8 @@
   "description": "CLI pour gérer des notes de développeur",
   "type": "project",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "symfony/console": "^6.0",
     "doctrine/dbal": "^4.2"
