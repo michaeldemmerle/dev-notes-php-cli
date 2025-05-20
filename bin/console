@@ -5,13 +5,9 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use App\Command\AddNoteCommand;
-use App\Command\ListNotesCommand;
-use App\Command\SearchNoteCommand;
 
 $application = new Application('Dev Notes CLI', '1.0.0');
 
 $application->add(new AddNoteCommand());
-$application->add(new ListNotesCommand());
-$application->add(new SearchNoteCommand());
 
 $application->run();
